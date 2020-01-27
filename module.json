@@ -1,0 +1,13 @@
+{
+    "name": "CompanyOrDesign",
+    "alias": "companyordesign",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\CompanyOrDesign\\Providers\\CompanyOrDesignServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
