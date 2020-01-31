@@ -29,6 +29,7 @@ class UpdateItemDiscountLimitListener
     {
         $data = $event->data(); 
         $item = $event->item();
+        $item->load('item_product');
 
         if($data->discount == 0 || $data->discount > $item->product->discount_limit) 
         {
