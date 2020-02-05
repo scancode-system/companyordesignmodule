@@ -20,7 +20,9 @@
 	.fs-25{font-size: 25px;}
 	.fs-30{font-size: 30px;}
 
-
+	thead{display: table-header-group;}
+	tfoot {display: table-row-group;}
+	tr {page-break-inside: avoid;}
 </style>
 @include('pdf::pdf.layouts.header')
 @include('companyordesign::pdf.layouts.body')
